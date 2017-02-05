@@ -125,7 +125,8 @@ h5 {
       bottom: 0;
       left: 15px;
       display: inline-block;
-      max-width: 222px; } }
+      max-width: 222px;
+      z-index: 1; } }
   @media (max-width: 1199px) {
     .page-footer {
       position: relative;
