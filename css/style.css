@@ -585,15 +585,24 @@ p.text-secondary-2 + .h3-mod {
   @media (min-width: 720px) {
     .one-car-img + h5 {
       margin-top: 44px; } }
+  @media (min-width: 1200px) {
+    .one-car-img + h5 {
+      margin-top: 40px; } }
 
 h5 + .one-car-details-wrap {
   margin-top: 18px; }
+  @media (min-width: 1200px) {
+    h5 + .one-car-details-wrap {
+      margin-top: 14px; } }
 
 * + .offset-top-30 {
   margin-top: 30px; }
 
 .post-event-row + .pagination-custom-wrap {
   margin-top: 23px; }
+  @media (min-width: 1200px) {
+    .post-event-row + .pagination-custom-wrap {
+      margin-top: 9px; } }
 
 .h3-mod + .post-event-row {
   margin-top: 23px; }
@@ -824,6 +833,14 @@ h5 + .one-car-details-wrap {
   @media (min-width: 1200px) {
     .inset-left-sidebar {
       padding-left: 0; } }
+
+@media (min-width: 960px) {
+  .inset-md-right-29 {
+    padding-right: 29%; } }
+
+@media (min-width: 1200px) {
+  .inset-md-right-29 {
+    padding-right: 33%; } }
 
 .text-spacing-100 {
   letter-spacing: .1em; }
@@ -2466,7 +2483,10 @@ h5 + .one-car-details-wrap {
       padding-bottom: 20px; } }
   @media (min-width: 960px) {
     .one-car-details {
-      margin-right: 253px; } }
+      margin-right: 224px; } }
+  @media (min-width: 1200px) {
+    .one-car-details {
+      margin-right: 270px; } }
   .one-car-details .one-car-details-row,
   .one-car-details .one-car-details-column-wrap {
     display: -webkit-box;
@@ -2547,7 +2567,22 @@ h5 + .one-car-details-wrap {
     .one-car-contact-info {
       position: absolute;
       right: 0;
-      top: -79px; } }
+      top: -79px;
+      padding-bottom: 128px;
+      padding-right: 15px;
+      padding-left: 15px;
+      min-width: 224px; }
+      .one-car-contact-info .one-car-contact-info-desc-desc {
+        position: absolute;
+        bottom: 2px;
+        left: 15px; } }
+  @media (min-width: 1200px) {
+    .one-car-contact-info {
+      padding-right: 30px;
+      padding-left: 27px;
+      min-width: 269px; }
+      .one-car-contact-info .one-car-contact-info-desc-desc {
+        left: 28px; } }
   .one-car-contact-info .one-car-contact-info-title {
     margin-bottom: 18px;
     font-size: 14px;
@@ -2564,6 +2599,9 @@ h5 + .one-car-details-wrap {
     font-size: 14px;
     margin-top: 35px;
     letter-spacing: .05em; }
+    @media (min-width: 960px) {
+      .one-car-contact-info .one-car-contact-info-desc {
+        margin-top: 42px; } }
     .one-car-contact-info .one-car-contact-info-desc:before, .one-car-contact-info .one-car-contact-info-desc:after {
       content: '';
       position: absolute;
@@ -2575,6 +2613,20 @@ h5 + .one-car-details-wrap {
       top: -17px; }
     .one-car-contact-info .one-car-contact-info-desc:after {
       bottom: -14px; }
+    @media (min-width: 960px) {
+      .one-car-contact-info .one-car-contact-info-desc:before, .one-car-contact-info .one-car-contact-info-desc:after {
+        width: 124%;
+        right: -40px; }
+      .one-car-contact-info .one-car-contact-info-desc:before {
+        top: -32px;
+        left: auto; }
+      .one-car-contact-info .one-car-contact-info-desc:after {
+        bottom: -18px;
+        left: auto; } }
+    @media (min-width: 1200px) {
+      .one-car-contact-info .one-car-contact-info-desc:before, .one-car-contact-info .one-car-contact-info-desc:after {
+        width: 142%;
+        right: -73px; } }
   .one-car-contact-info .one-car-contact-info-desc-desc {
     font-size: 12px;
     color: #818b96;
@@ -2623,7 +2675,10 @@ h5 + .one-car-details-wrap {
         -ms-flex-preferred-size: initial;
         -webkit-flex-basis: initial;
         flex-basis: initial;
-        max-width: none; } }
+        max-width: none;
+        margin-top: 41px;
+        padding-right: 0;
+        width: 100%; } }
     .one-car-contact-info .one-car-contact-info-bottom dl {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -2646,6 +2701,8 @@ h5 + .one-car-details-wrap {
       font-size: 12px;
       color: #818b96;
       font-family: 'Proxima Nova Light';
+      letter-spacing: .05em; }
+    .one-car-contact-info .one-car-contact-info-bottom dd {
       letter-spacing: .05em; }
     .one-car-contact-info .one-car-contact-info-bottom dd, .one-car-contact-info .one-car-contact-info-bottom dd a {
       font-size: 14px;
@@ -2763,8 +2820,11 @@ h5 + .one-car-details-wrap {
     font-size: 25px;
     color: #0da0f4;
     font-family: 'Proxima Nova Bold'; }
-    .post-event .post-event-price.post-event-price {
+    .post-event .post-event-price.post-event-price-danger {
       color: #ff5b22; }
+      @media (min-width: 1200px) {
+        .post-event .post-event-price.post-event-price-danger {
+          font-size: 27px; } }
   .post-event .post-event-title {
     padding-right: 8px;
     font-size: 20px;
