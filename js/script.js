@@ -19,3 +19,9 @@ $('.spinner .btn:last-of-type').on('click', function() {
         btn.prev("disabled", true);
     }
 });
+
+$(window).scroll(function(){
+    if ($(window).width() <= 462) {
+        $('.sidebar-wrap').toggleClass('active', $(this).scrollTop() > 0);
+    }
+});
